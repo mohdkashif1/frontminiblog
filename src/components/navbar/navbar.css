@@ -1,0 +1,118 @@
+.ml-auto {
+  margin-left: auto;
+}
+.header {
+  color: #6c757d;
+  z-index: 100;
+}
+.container-fluid {
+  margin: 0 2rem;
+}
+
+header .navbar-brand {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #b5b5b5 !important;
+}
+.navbar-brand:hover {
+  color: rgb(1, 33, 58) !important;
+}
+header .navbar {
+  font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
+}
+li {
+  display: list-item;
+}
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+header .search-form {
+  position: relative;
+  color: #b5b5b5 !important;
+}
+header .search-form .icon {
+  position: absolute;
+  top: 50%;
+  font-size: 1.2rem;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #b5b5b5 !important;
+}
+header .search-form .form-control {
+  padding-left: 30px;
+  border: none;
+  height: 44px;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid #b5b5b5 !important;
+  color: #fff;
+  outline: none;
+  color: #b5b5b5 !important;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.fa {
+  color: #6c757d;
+}
+header .navbar .nav-link {
+  padding: 1rem 1rem;
+  outline: none !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: aliceblue !important;
+}
+
+header .navbar .nav-link:hover {
+  color: darkslategray !important;
+}
+
+@media (max-width: 988px) {
+  nav.navbar {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar-brand {
+    font-size: 1.4rem !important;
+  }
+  .navbar-toggler {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-brand {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 322px) {
+  .navbar-toggler {
+    font-size: 0.6rem !important;
+  }
+  .navbar-brand {
+    font-size: 0.7rem !important;
+  }
+}

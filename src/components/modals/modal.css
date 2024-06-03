@@ -1,0 +1,43 @@
+/* . {
+  
+  background-color: white;
+} */
+
+.right-modal {
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  overflow-y: auto;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-out;
+  box-shadow: 5px 5px 5px 5px;
+  margin-bottom: 1rem;
+}
+.right-modal.open {
+  transform: translateY(0);
+}
+
+.sub-modal {
+  position: fixed;
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px;
+
+  top: 4rem;
+
+  padding: 1rem;
+
+  z-index: 1;
+}
+
+.sub-modal a {
+  color: black;
+}

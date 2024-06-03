@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper {
+  padding: 6rem 5rem 3rem 5rem;
+}
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: GH Guardian Headline, Guardian Egyptian Web, Georgia, serif;
+}
+
+p {
+  margin-bottom: 1rem;
+  word-break: break-word;
+  font-family: GuardianTextEgyptian, Guardian Text Egyptian Web, Georgia, serif;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #3d3d4e;
+}
+
+h2 {
+  font-family: GH Guardian Headline, Guardian Egyptian Web, Georgia, serif;
+  font-size: 1.25rem;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: GH Guardian Headline, Guardian Egyptian Web, Georgia, serif;
+}
+h4 {
+  font-family: GH Guardian Headline, Guardian Egyptian Web, Georgia, serif;
+}
+h5 {
+  font-family: GH Guardian Headline, Guardian Egyptian Web, Georgia, serif;
+}
+h6 {
+  font-family: GH Guardian Headline, Guardian Egyptian Web, Georgia, serif;
+}
+
+.container-sign {
+  width: 400px;
+  height: 400px;
+
+  margin: auto;
+}
+.add-post {
+  position: fixed;
+  right: 0;
+
+  max-height: calc(100vh - 7rem);
+  overflow-y: auto;
+}
+.left-container {
+  position: fixed;
+  left: 0;
+
+  max-height: calc(100vh - 7rem);
+  overflow-y: auto;
+}
+
+.content-img img {
+  width: 100%;
+  height: 400px;
+}
+
+.comments-section {
+  margin: 3rem 0rem 0rem 0rem;
+
+  padding: 1rem;
+  background: rgb(250, 244, 244);
+}
+.comments-section i {
+  cursor: pointer;
+}
+.comments-section i:hover {
+  color: blue;
+}
+
+@media only screen and (max-width: 780px) {
+  .add-post {
+    position: fixed;
+    bottom: 0;
+    height: 50vh;
+  }
+  .left-container {
+    top: 2;
+    position: fixed;
+
+    height: 50vh;
+    overflow-y: auto;
+  }
+  .post {
+    padding-bottom: 2rem;
+  }
+  .comments-section i {
+    font-size: 0.9rem;
+  }
+  .wrapper {
+    padding: 6rem 1rem 3rem 1rem;
+  }
+  .related-post .related-margin {
+    padding: 2rem 1rem 6rem 1rem !important;
+  }
+  .main-content-wrapper {
+    padding: 6rem 2rem 3rem 2rem !important;
+  }
+  .middle {
+    padding: 2rem 2rem !important;
+  }
+  .categories {
+    margin: 0 2rem !important;
+  }
+}
+
+.form-container {
+  max-width: 500px;
+
+  margin: 8rem auto 4rem auto;
+}
