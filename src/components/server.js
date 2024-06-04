@@ -1,2 +1,2 @@
-export const server='http://api.tutbykashif.online'
+export const server='https://api.tutbykashif.online'
 
