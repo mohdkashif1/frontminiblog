@@ -33,4 +33,5 @@ jobs:
 
           sudo systemctl reload nginx
 
+
           EOF
