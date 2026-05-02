@@ -27,7 +27,7 @@ const Category = () => {
       },[])
 
   return <div className='categories py-5'>
-      <h1 className=' text-center'>Explore Categories</h1>
+      <h1 className=' text-center'>Explore Categories!</h1>
       <p className='popular-posts-para'>Explore more from categories!</p>
       <div className='carousel'>
       <Carasoul data={data}/>
